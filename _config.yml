@@ -1,14 +1,26 @@
 layout_spectrum: 0.1708385
+name: 'https://branded.me/alessandrozavone'
 typography_spectrum: 0.7841051
 color:
-  lightness: 0.4810541
   brandStrength: 0.5100125
   saturation: 0.5759953
-  rhythmicContrast: 0.4161452
   brandColors:
     - '#797465'
     - '#302F28'
     - '#EAEBE7'
     - '#FAD1BD'
     - '#D79B76'
-name: 'https://branded.me/alessandrozavone'
+  lightness: 0.4810541
+  rhythmicContrast: 0.4161452
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
